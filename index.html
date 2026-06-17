@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="weather-app">
+    <h1>🌎Climate connect</h1>
+    <p>Select a city to check the current weather.</p>
+
+    <label for="city">Select City</label>
+    <select id="city">
+      <option value="Toronto">Toronto</option>
+      <option value="Vancouver">Vancouver</option>
+      <option value="Calgary">Calgary</option>
+      <option value="Montreal">Montreal</option>
+    </select>
+
+    <button id="weatherBtn">Get Weather</button>
+
+    <section id="weatherResult" class="weather-card">
+      <p>Your weather result will appear here.</p>
+    </section>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
